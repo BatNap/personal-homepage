@@ -1,0 +1,78 @@
+.header{
+    margin-top: 0;
+    z-index: 2;
+    font-size: 4vw;
+    font-family: "MarcellusSC";
+    text-align: center;
+    color: white;
+}
+
+.scrollable{
+    z-index: 2000;
+    text-align: center;
+    font-family: "RobotoSlab-regular";
+    transition: all 1s;
+}
+
+.hide {
+    opacity: 0;
+    left: -100%;
+}
+.show {
+    opacity: 1;
+    left: 0;
+}
+
+.link{
+    text-decoration: none;
+    font-family: "RobotoSlab-Bold";
+}
+
+.article{
+    z-index: 2000;
+    font-size: 2vw;
+    width: 60%;
+    margin-right: 25%;
+    margin-left: 15%;
+    text-align: justify;    
+}
+
+@media only screen and (max-width: 600px) {
+    .hide{
+        opacity: 1;
+    }
+
+    .article{
+        font-size: 3vw;
+    }
+}
+
+@font-face {
+    font-family: "AmaticSC-Bold";
+    src: url("/source/font/AmaticSC-Bold.ttf");
+}
+
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: url("/source/font/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MarcellusSC";
+    src: url("/source/font/MarcellusSC/MarcellusSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "RobotoSlab-light";
+    src: url("/source/font/RobotoSlab/RobotoSlab-Light.ttf");
+}
+
+@font-face {
+    font-family: "RobotoSlab-regular";
+    src: url("/source/font/RobotoSlab/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: "RobotoSlab-bold";
+    src: url("/source/font/RobotoSlab/RobotoSlab-Bold.ttf");
+}

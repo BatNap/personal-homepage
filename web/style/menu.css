@@ -1,0 +1,43 @@
+@import url("content.css");
+.menu{
+    z-index: 0;
+    float: left;
+    width: 3em;
+    height: 2.5em;
+    margin-bottom: 0;
+    filter: grayscale(100%);
+}
+
+.dropdown {
+    margin: 2%;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font-family: "RobotoSlab-light";
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    margin-top: 1em;
+    margin-left: 1em;
+    box-shadow: 0px 8px 16px 0px blanchedalmond;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: teal;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+

@@ -1,0 +1,32 @@
+@import url("content.css");
+
+.socials{
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    width: 20;
+    margin-left: 80%;
+    margin-right: 5%;
+}
+
+.head{
+    font-family: "RobotoSlab-light";
+}
+
+.icon{
+    width: 3em;
+}
+
+.row{
+    display: flex;
+}
+
+.colText{
+    padding-left: 5px;
+    text-align: center;
+}
+
+.col2{
+    flex: 50;
+}

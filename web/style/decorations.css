@@ -1,0 +1,25 @@
+.separator{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: white;
+    animation: 1.2 ease-out 0.5s 1 separator;
+}
+
+.bodyBG{
+    /* background: url("/source/PNG/BG_Green.png") no-repeat 20% 30%; */
+    background: linear-gradient(180deg, teal 100%, white 10%);
+    background-color: #ffffff;    
+    background-repeat: no-repeat;
+}
+
+@keyframes separator {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
