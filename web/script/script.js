@@ -1,5 +1,4 @@
 var myID = document.getElementById("scrollable");
-var previousScroll = window.visualViewport.pageTop;
 
 
 var ScrollFunc = async function() {
@@ -15,30 +14,13 @@ var ScrollFunc = async function() {
     }
     
     var sticky = document.getElementById("socials");
-    var stickyTop = sticky.offsetTop;
     var view = window.visualViewport.pageTop;
-    
-    // if(stickyTop <= view+10){
-    //     sticky.style.top =  window.visualViewport.pageTop+'px';
-    // }
 
     var min = document.getElementById("bodyBG").offsetHeight;
-
-    console.log(view);
-    console.log(min);
 
     if(view > min){
         sticky.style.top =  window.visualViewport.pageTop+'px';
     }
-
-    // if(view < previousScroll){
-    //     sticky.style.top =  window.visualViewport.pageTop+'px';
-    //     // if(stickyTop <= min+10){
-    //     //     sticky.style.top =  window.visualViewport.pageTop+'px';
-    //     // }
-    // }
-
-    previousScroll = view;
 };
 
 window.addEventListener("scroll", ScrollFunc);
