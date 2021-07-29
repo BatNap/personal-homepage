@@ -59,12 +59,12 @@
 
 @font-face {
     font-family: "AmaticSC-Regular";
-    src: url("/../../source/font/AmaticSC-Regular.ttf");
+    src: url("../../source/font/AmaticSC-Regular.ttf");
 }
 
 @font-face {
     font-family: "MarcellusSC";
-    src: url("/../source/font/MarcellusSC/MarcellusSC-Regular.ttf");
+    src: url("../source/font/MarcellusSC/MarcellusSC-Regular.ttf");
 }
 
 @font-face {
