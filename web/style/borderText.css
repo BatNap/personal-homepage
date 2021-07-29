@@ -2,9 +2,7 @@
 
 .socials{
     z-index: 5;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 10px;
+    position: absolute;
     width: 15%;
     margin-left: 80%;
     margin-right: 5%;

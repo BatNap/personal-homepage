@@ -1,19 +1,45 @@
 var myID = document.getElementById("scrollable");
- 
+var previousScroll = window.visualViewport.pageTop;
+
+
 var ScrollFunc = async function() {
     
-
     var y = window.scrollY;
-
+    
     if (y >= 350) {
-        // await delay(1000);
-        myID.className = "scrollable show";
+        myID.classList.add("show");
+        myID.classList.remove("hide");
     } else {
-        myID.className = "scrollable hide";
+        myID.classList.add("hide");
+        myID.classList.remove("show");
     }
-};
+    
+    var sticky = document.getElementById("socials");
+    var stickyTop = sticky.offsetTop;
+    var view = window.visualViewport.pageTop;
+    
+    // if(stickyTop <= view+10){
+    //     sticky.style.top =  window.visualViewport.pageTop+'px';
+    // }
 
-// const delay = ms => new Promise(res => setTimeout(res, ms));
+    var min = document.getElementById("bodyBG").offsetHeight;
+
+    console.log(view);
+    console.log(min);
+
+    if(view > min){
+        sticky.style.top =  window.visualViewport.pageTop+'px';
+    }
+
+    // if(view < previousScroll){
+    //     sticky.style.top =  window.visualViewport.pageTop+'px';
+    //     // if(stickyTop <= min+10){
+    //     //     sticky.style.top =  window.visualViewport.pageTop+'px';
+    //     // }
+    // }
+
+    previousScroll = view;
+};
 
 window.addEventListener("scroll", ScrollFunc);
 
