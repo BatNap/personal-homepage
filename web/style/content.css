@@ -54,30 +54,30 @@
 
 @font-face {
     font-family: "AmaticSC-Bold";
-    src: url("source/font/AmaticSC-Bold.ttf");
+    src: url("../../source/font/AmaticSC-Bold.ttf");
 }
 
 @font-face {
     font-family: "AmaticSC-Regular";
-    src: url("source/font/AmaticSC-Regular.ttf");
+    src: url("../../source/font/AmaticSC-Regular.ttf");
 }
 
 @font-face {
     font-family: "MarcellusSC";
-    src: url("source/font/MarcellusSC/MarcellusSC-Regular.ttf");
+    src: url("../../source/font/MarcellusSC/MarcellusSC-Regular.ttf");
 }
 
 @font-face {
     font-family: "RobotoSlab-light";
-    src: url("source/font/RobotoSlab/RobotoSlab-Light.ttf");
+    src: url("../../source/font/RobotoSlab/RobotoSlab-Light.ttf");
 }
 
 @font-face {
     font-family: "RobotoSlab-regular";
-    src: url("source/font/RobotoSlab/RobotoSlab-Regular.ttf");
+    src: url("../../source/font/RobotoSlab/RobotoSlab-Regular.ttf");
 }
 
 @font-face {
     font-family: "RobotoSlab-bold";
-    src: url("source/font/RobotoSlab/RobotoSlab-Bold.ttf");
+    src: url("../../source/font/RobotoSlab/RobotoSlab-Bold.ttf");
 }
