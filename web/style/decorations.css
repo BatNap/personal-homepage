@@ -5,7 +5,7 @@
     height: 1px;
     border: none;
     background-color: white;
-    animation: 1.2 ease-out 0.5s 1 separator;
+    animation: 1s ease-out 0s 1 separator;
 }
 
 .bodyBG{

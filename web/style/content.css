@@ -48,7 +48,8 @@
     }
 
     .article{
-        font-size: 3vw;
+        text-align: justify;  
+        font-size: 4vw;
     }
 }
 
