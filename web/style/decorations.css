@@ -1,6 +1,6 @@
 .separator{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     width: 80%;
     height: 1px;
     border: none;
@@ -13,7 +13,10 @@
     background: linear-gradient(180deg, teal 100%, white 10%);
     background-color: #ffffff;    
     background-repeat: no-repeat;
+    height: 100vh;
 }
+
+
 
 @keyframes separator {
     0%{

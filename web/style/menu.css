@@ -1,6 +1,7 @@
 @import url("content.css");
 .menu{
     z-index: 0;
+    position: absolute;
     float: left;
     width: 3em;
     height: 2.5em;
@@ -16,7 +17,7 @@
 }
 
 .dropdown-content {
-    font-family: "RobotoSlab-light";
+    font-family: "RobotoSlab-bold;";
     display: none;
     position: absolute;
     background-color: #f1f1f1;
